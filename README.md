@@ -1,4 +1,4 @@
 # compAi
 
 
-trabahlo de IA computacional.
+trabalhos de IA computacional.
