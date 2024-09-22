@@ -6,7 +6,6 @@ def algoritmo_moeda(troco, moedas_disponiveis):
             resultado.append(moeda)
     return resultado
 
-# Exemplo de uso
 moedas_disponiveis = [50, 25, 10, 5, 1]
 
 troco = 28
