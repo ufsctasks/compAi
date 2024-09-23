@@ -15,9 +15,9 @@ class GrafoMatriz:
 
     def heuristica(self, atual, destino):
         heuristicas = {
-            0: {1: 50, 2: 150},  # Estimativas para A (0)
-            1: {0: 50, 2: 80},   # Estimativas para B (1)
-            2: {0: 150, 1: 80},  # Estimativas para C (2)
+            0: {1: 30, 2: 120},  # Estimativas para A (0)
+            1: {0: 30, 2: 60},   # Estimativas para B (1)
+            2: {0: 120, 1: 60},  # Estimativas para C (2)
         }
         return heuristicas.get(atual, {}).get(destino, 0)
 

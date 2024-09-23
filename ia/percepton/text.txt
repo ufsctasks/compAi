@@ -1,0 +1,107 @@
+RESULTADOS OBTIDOS COM PERCEPTRON
+
+Dados Codificados:
+Nomes codificados: [2 0 6 1 4 3 5 7]
+Sexos binários: [1 1 0 0 0 0 1 1]
+Profissões binárias: [0 1 1 1 0 0 0 0]
+Saídas: [[1 0]
+         [1 1]
+         [0 1]
+         [0 1]
+         [0 0]
+         [0 0]
+         [1 0]
+         [1 0]]
+
+Testes com Pesos Sinápticos Inicializados em Zero:
+Previsões com pesos zero:
+[[1 0]
+ [1 1]
+ [0 1]
+ [0 1]
+ [0 0]
+ [0 0]
+ [1 0]
+ [1 0]]
+
+Testes com Pesos Sinápticos Inicializados com Valores Diferentes de Zero:
+Previsões com pesos aleatórios:
+[[1 0]
+ [1 1]
+ [0 1]
+ [0 1]
+ [0 0]
+ [0 0]
+ [1 0]
+ [1 0]]
+
+Avaliação com Diferentes Épocas:
+Previsões com 10 épocas:
+[[1 0]
+ [1 1]
+ [0 1]
+ [0 1]
+ [0 0]
+ [0 0]
+ [1 0]
+ [1 0]]
+
+Previsões com 50 épocas:
+[[1 0]
+ [1 1]
+ [0 1]
+ [0 1]
+ [0 0]
+ [0 0]
+ [1 0]
+ [1 0]]
+
+Previsões com 100 épocas:
+[[1 0]
+ [1 1]
+ [0 1]
+ [0 1]
+ [0 0]
+ [0 0]
+ [1 0]
+ [1 0]]
+
+Avaliação com Diferentes Taxas de Aprendizado:
+Previsões com taxa de aprendizado 0.01:
+[[1 0]
+ [1 1]
+ [0 1]
+ [0 1]
+ [0 0]
+ [0 0]
+ [1 0]
+ [1 0]]
+
+Previsões com taxa de aprendizado 0.1:
+[[1 0]
+ [1 1]
+ [0 1]
+ [0 1]
+ [0 0]
+ [0 0]
+ [1 0]
+ [1 0]]
+
+Previsões com taxa de aprendizado 1.0:
+[[1 0]
+ [1 1]
+ [0 1]
+ [0 1]
+ [0 0]
+ [0 0]
+ [1 0]
+ [1 0]]
+
+Impressões:
+1. Os resultados com diferentes épocas (10, 50, 100) foram os mesmos, indicando que o Perceptron convergiu rapidamente, possivelmente nas primeiras épocas. Isso sugere que o conjunto de dados é simples e o modelo pode aprender rapidamente.
+2. As diferentes taxas de aprendizado (0.01, 0.1, 1.0) não impactaram os resultados finais, o que reforça a ideia de rápida convergência. Taxas de aprendizado mais altas não causaram instabilidade, sugerindo que o Perceptron ajustou os pesos de maneira eficiente.
+3. Inicializar os pesos com valores diferentes de zero também não alterou os resultados, o que pode ser devido à simplicidade do problema e à robustez do modelo para ajustar os pesos adequadamente.
+
+Conclusão:
+O Perceptron apresentou desempenho consistente independentemente das configurações de épocas e taxas de aprendizado, mostrando rápida convergência no conjunto de dados fornecido. Para conjuntos de dados mais complexos, pode ser necessário ajustar mais cuidadosamente essas configurações.
+"""
